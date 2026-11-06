@@ -41,9 +41,9 @@ struct simulationSettings {
 
 typedef struct simulationSettings SETTINGS;
 
-void loadData(BODY *, int);
+void loadData(BODY *b, int option);
 
-void physics(BODY *, PAIR *, SETTINGS *, int);
+void physics(BODY *b, PAIR *p, SETTINGS *s, int option);
 
 void settings(SETTINGS *);
 

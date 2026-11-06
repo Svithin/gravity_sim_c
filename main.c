@@ -4,7 +4,7 @@
 int main() {
     BODY b[2];
     PAIR p;
-    SETTINGS s = {3600, 8766};
+    SETTINGS s = { .dt = 3600.0, .t = 0.0, .steps = 8766 };
     int choice = 0;
     int option = 0;
 
